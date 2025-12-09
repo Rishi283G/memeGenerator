@@ -141,3 +141,38 @@ button:active {
 .meme-tittle {
   margin: 12px 0;
 }
+@media (max-width: 600px) {
+  body {
+    padding: 12px; /* keeps some breathing room */
+  }
+
+  .meme-container,
+  button {
+    width: 100%;
+    max-width: 420px; /* makes it slightly narrower */
+    margin-inline: auto; /* center properly */
+  }
+
+  .meme-container {
+    padding: 14px;
+    border-radius: 12px;
+  }
+
+  .meme-tittle {
+    font-size: 20px;
+  }
+
+  button {
+    padding: 12px;
+    font-size: 15.5px;
+    border-radius: 10px;
+  }
+
+  .meme-img {
+    border-radius: 10px;
+  }
+
+  .meme-author {
+    font-size: 13px;
+  }
+}
