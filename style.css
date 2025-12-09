@@ -176,3 +176,20 @@ button:active {
     font-size: 13px;
   }
 }
+@media (max-width: 400px) {
+  body {
+    padding: 10px;
+  }
+
+  .meme-container,
+  button {
+    max-width: 360px;
+    width: 100%;
+    margin-inline: auto;
+  }
+}
+.meme-container,
+button {
+  width: 95vw;
+  max-width: 420px;
+}
