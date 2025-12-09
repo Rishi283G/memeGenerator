@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+    
+
+/* Meme Card */
+.meme-container {
+  max-width: 460px;
+  margin: 28px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.15);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.meme-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+
+/* Title */
+.meme-tittle {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 10px 0;
+  letter-spacing: 0.5px;
+}
+
+/* Image */
+.meme-img {
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 12px;
+  transition: 0.3s;
+}
+
+.meme-img:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* Button */
+button {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 460px;
+  padding: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 18px;
+  background: linear-gradient(135deg, #0ca678, #087f64);
+  color: white;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: 0.25s ease;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+button:hover {
+  background: linear-gradient(135deg, #0dbd8a, #0a9475);
+  transform: translateY(-3px);
+}
+
+button:active {
+  transform: scale(0.96);
+}
+
+/* Author */
+.meme-author {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #555;
+}
+
+.meme-author span {
+  font-weight: 600;
+  color: #0ca678;
+}
+
+.meme-author:hover span {
+  text-decoration: underline;
+}
